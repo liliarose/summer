@@ -3,11 +3,23 @@
 
 using namespace std; 
 
-/*struct ContactInfo{
+/*
+
+struct ContactInfo{
 	string firstName, lastName, address, city, state, zip, phone; 
 }; 
-or class 
-now can create multiple ContactInfo 
+
+or 
+
+class ContactInfo{
+	string firstName, lastName, address, city, state, zip, phone; 
+	
+	ContactInfo(string f, string l, string addr, string name, string abbreviation, string code, string number)
+		:firstName(f), lastName(l), address(addr), city(name), state(abbreviation), zip(code), phone(number)
+	{
+	}
+}
+now can create multiple ContactInfo :)  
 */
 
 int main(){
