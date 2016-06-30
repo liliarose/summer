@@ -18,7 +18,7 @@ class ContactInfo{
 		:firstName(f), lastName(l), address(addr), city(name), state(abbreviation), zip(code), phone(number)
 	{
 	}
-}
+}; 
 now can create multiple ContactInfo :)  
 */
 
